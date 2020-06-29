@@ -1,0 +1,27 @@
+{
+  "name": "@eric.bednarz.dev/css",
+  "version": "0.0.0-development",
+  "license": "MIT",
+  "type": "module",
+  "main": "./postcss.js",
+  "bin": {
+    "producss": "./cli.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "eslintConfig": {
+    "extends": "@eric.bednarz.dev"
+  },
+  "description": "PostCSS build for production",
+  "author": "Eric Bednarz <dotgitignore@outlook.com>",
+  "repository": "github:eric-bednarz-dev/npm_css",
+  "dependencies": {
+    "@eric.bednarz.dev/eslint-config": "^2.0.0",
+    "eslint": "^7.2.0",
+    "cssnano": "^4.1.10",
+    "postcss": "^7.0.32",
+    "postcss-import": "^12.0.1",
+    "postcss-preset-env": "^6.7.0"
+  }
+}

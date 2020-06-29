@@ -1,0 +1,9 @@
+# copy to ../npm
+version: "3.6"
+services:
+  app:
+    environment:
+      - PROJECT=css
+    volumes:
+      - ../npm_css/config:/home/node/config
+      - ../npm_css/source:/home/node/app/source
