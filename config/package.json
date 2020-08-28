@@ -16,6 +16,11 @@
   "description": "PostCSS build for production",
   "author": "Eric Bednarz <dotgitignore@outlook.com>",
   "repository": "github:eric-bednarz-dev/npm_css",
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
   "dependencies": {
     "@eric.bednarz.dev/eslint-config": "^2.0.0",
     "eslint": "^7.2.0",
